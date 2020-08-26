@@ -1,0 +1,75 @@
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Alata', sans-serif;
+
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 16px;
+    border-bottom: 1px solid black;
+}
+
+.navlinks {
+    background-color: burlywood;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+li:hover {
+    color: black;
+
+}
+
+.imagebanner {
+    background-image: url("images/wood.jpg");
+    padding: 50px 0;
+    background-size: auto;
+}
+
+h2 {
+    text-align: center;
+    color: wheat;
+}
+
+.introduction {
+    text-align: center;
+    color: unset;
+    font-size: 1.5rem;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.OurFurniture {
+    text-align: center;
+    margin: 32px;
+}
+
+@media screen and (min-width: 700px) {
+    ul {
+        text-align: right;
+    }
+
+    li {
+        display: inline-block;
+        border-bottom: 0px;
+        border-left: 1px solid black;
+    }
+    
+    .Product {
+        width: 33%;
+        display: inline-block;
+    }
+}
